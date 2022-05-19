@@ -1,4 +1,4 @@
-
+## there are two funtions for makecachematrix
 makeCacheMatrix <- function(x = matrix()) {
   j <- NULL
   set <- function(y){
@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = matrix()) {
        setInverse = setInverse, 
        getInverse = getInverse)
 }
-
+## get cache data
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   j <- x$getInverse()
